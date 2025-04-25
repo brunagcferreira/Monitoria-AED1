@@ -1,0 +1,41 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.elf
+
+# Precompiled Headers
+*.gch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Debug files
+*.log
+
+# VS Code settings
+.vscode/
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# Linux swap files
+*.swp
+
+# CMake (caso use)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Build folders
+/build/
+/bin/
+/dist/
