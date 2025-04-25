@@ -28,7 +28,7 @@ Escola* criarEscola(){
 }
 
 void criarTurma(Escola *escola){
-    Turma *turma = malloc(sizeof(Turma*));
+    Turma *turma = malloc(sizeof(Turma));
     turma->id = 0;
     turma->qntdAlunosNaTurma = 0;
     turma->alunosMatriculados = NULL;
@@ -41,7 +41,7 @@ void criarTurma(Escola *escola){
 }
 
 void criarAluno(Escola *escola){
-    Aluno *aluno = malloc(sizeof(Aluno*));
+    Aluno *aluno = malloc(sizeof(Aluno));
     aluno->notas = NULL;
 
     printf("Digite o nome do aluno: ");
